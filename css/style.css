@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+html{
+    font-size: 20px;
+}
+.container{
+    text-align: center;
+    margin-top: 1rem;
+}
+.container .title-container{
+    margin: 2rem 0;
+}
+.container .input-container{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container .input-container label{
+    align-self: flex-start;
+    margin: 0.5rem 0 0.5rem 5rem;
+}
+.container .input-container input{
+    width: 80%;
+    height: 2rem;
+    align-self: center;
+    border: 1px solid #ccc;
+    outline: none;
+    padding-left: 1rem;
+    font-size: 0.9rem;
+}
+.container .input-container .btn-container{
+    width: 100%;
+    padding-left: 4.8rem;
+    display: flex;
+    justify-content: flex-start;
+}
+.container .input-container .btn-container button{
+    margin: 0.5rem 0.2rem;
+    border: none;
+    outline: none;
+    padding: 0.4rem 1rem;
+    border-radius: 0.2rem;
+    color: #fff;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.container .input-container .btn-container button.add{
+    background-color: #3c8ac8;
+}
+.container .input-container .btn-container button.clear{
+    background-color: red;
+}
+.to-do{
+    
+}
